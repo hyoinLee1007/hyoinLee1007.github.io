@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Two degree-of-freedom robotic arm illustration">
+  <rect width="800" height="500" fill="#f5f6f8"/>
+  <g fill="none" stroke="#8f969f" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M168 362h254"/>
+    <circle cx="222" cy="362" r="36"/>
+    <circle cx="366" cy="362" r="36"/>
+    <path d="M294 326V236l108-89 94 48"/>
+    <circle cx="294" cy="236" r="19"/>
+    <circle cx="402" cy="147" r="19"/>
+    <path d="M496 195l66-20"/>
+  </g>
+  <path d="M590 106c48 39 75 86 80 141" fill="none" stroke="#b3b9c1" stroke-width="3"/>
+  <path d="M646 209l26 44 18-49" fill="none" stroke="#b3b9c1" stroke-width="3"/>
+  <text x="49" y="455" font-family="Arial,sans-serif" font-size="34" fill="#555c65">2-DOF Mobile Manipulator Control</text>
+</svg>
