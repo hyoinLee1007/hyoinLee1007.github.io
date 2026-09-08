@@ -338,6 +338,17 @@ img {
   padding: 8px;
 }
 
+
+.project-image-infographic {
+  background: #ffffff;
+}
+
+.project-image-infographic img {
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  padding: 0;
+}
+
 .project-image-cover img {
   object-fit: cover;
   object-position: center;
