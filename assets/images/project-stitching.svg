@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Image stitching illustration">
+  <rect width="800" height="500" fill="#f5f6f8"/>
+  <g fill="none" stroke="#8f969f" stroke-width="6">
+    <rect x="96" y="95" width="270" height="230" transform="rotate(-6 231 210)"/>
+    <rect x="280" y="96" width="270" height="230"/>
+    <rect x="464" y="95" width="270" height="230" transform="rotate(6 599 210)"/>
+  </g>
+  <g fill="#b6bcc4">
+    <circle cx="183" cy="166" r="17"/>
+    <circle cx="358" cy="172" r="17"/>
+    <circle cx="542" cy="166" r="17"/>
+  </g>
+  <path d="M107 279l90-77 94 68 80-64 83 66 99-80 168 91" fill="none" stroke="#a2a9b2" stroke-width="7" stroke-linejoin="round"/>
+  <text x="49" y="455" font-family="Arial,sans-serif" font-size="34" fill="#555c65">Image Stitching · SIFT · RANSAC</text>
+</svg>

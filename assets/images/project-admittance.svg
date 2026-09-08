@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Admittance control illustration">
+  <rect width="800" height="500" fill="#f5f6f8"/>
+  <g fill="none" stroke="#8f969f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="190" cy="345" r="44"/>
+    <path d="M190 300V230h95l80-92"/>
+    <circle cx="285" cy="230" r="18"/>
+    <circle cx="365" cy="138" r="18"/>
+    <path d="M365 138l92 45 58-35"/>
+    <path d="M518 149l46 13-20 42"/>
+  </g>
+  <g stroke="#b3b9c1" stroke-width="3" fill="none">
+    <path d="M590 92c45 16 74 46 91 91"/>
+    <path d="M612 134l72 54-10-89"/>
+    <path d="M100 95c46 0 86 15 121 45"/>
+    <path d="M197 101l32 46-57-4"/>
+  </g>
+  <text x="48" y="455" font-family="Arial,sans-serif" font-size="34" fill="#555c65">Admittance Control + Imitation Learning</text>
+</svg>
