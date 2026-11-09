@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Hyoin Lee — robotics research portfolio. Interests: dexterous manipulation, reinforcement learning, generative models, and interaction-driven physical understanding." />
+  <meta name="author" content="Hyoin Lee" />
+  <meta name="theme-color" content="#ffffff" />
+  <title>Hyoin Lee</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="assets/js/main.js"></script>
+  <style>
+    /* Added project evidence links; existing site styling remains unchanged. */
+    .project-links { display: flex; flex-wrap: wrap; gap: .45rem 1rem; margin: .7rem 0 .3rem; }
+    .project-links a { font-size: .9rem; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+    .project-image a { display: block; width: 100%; height: 100%; }
+    .project-image a img { display: block; width: 100%; height: 100%; object-fit: contain; }
+    .project-evidence { margin-top: .75rem; border-top: 1px solid #e1e5eb; padding-top: .7rem; }
+    .project-evidence summary { cursor: pointer; font-weight: 600; font-size: .9rem; }
+    .project-evidence figure { margin: 1rem 0 0; max-width: 650px; }
+    .project-evidence img { width: 100%; height: auto; border: 1px solid #e4e7ea; border-radius: 5px; }
+    .project-evidence figcaption { color: #505b66; font-size: .82rem; margin-top: .45rem; line-height: 1.5; }
+    .project-image a:focus-visible, .project-links a:focus-visible { outline: 2px solid #3269ad; outline-offset: 3px; }
+  </style>
+
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Hyoin Lee home">Hyoin Lee</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy">
+        <h1>Hyoin Lee</h1>
+        <p class="role"><strong>Mechatronics Engineering · Robotics Research</strong></p>
+        <p class="intro">
+          My research interests focus on dexterous manipulation, reinforcement learning, and generative models.
+          I aim to develop robots that learn about an object's physical properties through direct interaction
+          and adapt their manipulation strategies using the resulting physical feedback.
+        </p>
+
+        <div class="social-links" aria-label="External links">
+          <a href="https://github.com/hyoinLee1007/" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <span aria-hidden="true">/</span>
+          <a href="https://www.linkedin.com/in/%ED%9A%A8%EC%9D%B8-%EC%9D%B4-775a733aa/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <span aria-hidden="true">/</span>
+          <a href="mailto:in7257@gmail.com">Email</a>
+          <span aria-hidden="true">/</span>
+          <a href="assets/cv/Lee_Hyoin_CV.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+        </div>
+      </div>
+
+      <div class="hero-photo-wrap">
+        <img class="hero-photo" src="assets/images/profile.jpg" alt="Hyoin Lee" />
+      </div>
+    </section>
+
+
+    <section class="section container compact-section">
+      <div class="section-heading split-heading">
+        <h2>News</h2>
+        <p>Latest updates on my research, projects, and achievements.</p>
+      </div>
+
+      <div class="news-list">
+        <div class="news-row">
+          <time>2026.09</time>
+          <p>Completed an undergraduate research project at GIST AI Lab on web video-based robot behavior data generation.</p>
+        </div>
+        <div class="news-row">
+          <time>2026.06</time>
+          <p>Presented <em>Admittance-Guided Imitation Learning for Contact-Rich Manipulation</em> at ICROS 2026.</p>
+        </div>
+        <div class="news-row">
+          <time>2026</time>
+          <p>Completed the undergraduate thesis <em>“Multi-Floor Delivery Robot Platform Utilizing Imitation Learning”</em>.</p>
+        </div>
+        <div class="news-row">
+          <time>2025.08</time>
+          <p>Received the High-Tech Robot Industry Director’s Award for the multi-floor delivery robot project.</p>
+        </div>
+        <div class="news-row">
+          <time>2025.08</time>
+          <p>Received the Department Chair’s Award for an imitation-learning-based robotic sequence demonstration.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-heading">
+        <h2>Projects</h2>
+        <p>
+          Selected work in contact-aware manipulation, robot learning, and robotics systems.
+          Each project includes available demonstrations and research materials.
+        </p>
+      </div>
+
+      <div class="project-list">
+        <article class="project-item featured-project">
+          <div class="project-image project-image-cover">
+            <a href="assets/images/gist-framework-workflow.png" target="_blank" rel="noopener noreferrer" aria-label="View the full GIST framework diagram">
+              <img src="assets/images/gist-framework-workflow.png" alt="Four-stage framework: hand-object trajectory reconstruction, contact-aware rectification, trajectory optimization, and data augmentation" loading="lazy" />
+            </a>
+          </div>
+          <div class="project-copy">
+            <h3>Web Video-Based Robot Behavior Data Generation</h3>
+            <p class="project-meta">GIST AI Lab · Undergraduate Researcher · Jun. 2026 – Sep. 2026</p>
+            <p>
+              Explored a pipeline for generating robot manipulation trajectories from human videos.
+              Reconstructed hand–object motion and investigated contact-aware optimization to refine
+              interactions. Analyzed how contact-attraction and other objective terms contributed
+              across trajectory chunks, while identifying limitations from reconstruction and
+              contact-estimation errors.
+            </p>
+            <p class="tags">Robot Learning · Generative Modeling · Contact-Aware Optimization · Retargeting</p>
+            <div class="project-links" aria-label="GIST project materials">
+              <a href="assets/videos/gist-trajectory-simulation.mp4" target="_blank" rel="noopener noreferrer">▶ Simulation Demo</a>
+              <a href="assets/images/gist-framework-workflow.png" target="_blank" rel="noopener noreferrer">Framework</a>
+              <a href="assets/images/gist-contact-objective-analysis.png" target="_blank" rel="noopener noreferrer">Reward Analysis</a>
+              <a href="assets/images/gist-trajectory-comparison.png" target="_blank" rel="noopener noreferrer">Trajectory Comparison</a>
+            </div>
+            <details class="project-evidence">
+              <summary>View contact-aware objective analysis</summary>
+              <figure>
+                <a href="assets/images/gist-contact-objective-analysis.png" target="_blank" rel="noopener noreferrer">
+                  <img src="assets/images/gist-contact-objective-analysis.png" alt="Stacked area chart of the percentage of absolute objective contributions across 12 control chunks; the robot contact-attraction term contributes more in later chunks" loading="lazy" />
+                </a>
+                <figcaption>
+                  Relative shares of absolute objective contributions across control chunks.
+                  The contact-attraction term becomes prominent in later chunks; this does not by itself establish successful physical contact.
+                </figcaption>
+              </figure>
+            </details>
+          </div>
+        </article>
+
+        <article class="project-item featured-project">
+          <div class="project-image project-image-infographic">
+            <a href="assets/videos/admittance-imitation-learning-demo.mp4" target="_blank" rel="noopener noreferrer" aria-label="Watch the admittance-guided imitation learning demonstration">
+              <img src="assets/images/project-admittance-v3.png" alt="Overview of the admittance-guided imitation learning project" loading="lazy" />
+            </a>
+          </div>
+          <div class="project-copy">
+            <h3>Admittance-Guided Imitation Learning for Contact-Rich Manipulation</h3>
+            <p class="project-meta">ICROS 2026 · Undergraduate Researcher · Dec. 2025 – Jun. 2026</p>
+            <p>
+              Developed an admittance-guided imitation learning framework for contact-rich wiping.
+              Estimated external forces from motor currents without an external force/torque sensor and
+              used admittance control to improve compliance during demonstration collection and execution.
+            </p>
+            <p class="tags">Imitation Learning · Admittance Control · MuJoCo · Force Estimation</p>
+            <div class="project-links" aria-label="Admittance project materials">
+              <a href="assets/papers/icros2026-admittance-guided-imitation-learning.pdf" target="_blank" rel="noopener noreferrer">Paper PDF</a>
+              <a href="assets/videos/admittance-imitation-learning-demo.mp4" target="_blank" rel="noopener noreferrer">▶ Demo Video</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-item">
+          <div class="project-image project-image-infographic">
+            <a href="assets/videos/graduation-project-demo.mp4" target="_blank" rel="noopener noreferrer" aria-label="Watch the multi-floor delivery robot demonstration">
+              <img src="assets/images/project-delivery-v3.png" alt="Multi-floor delivery robot platform" loading="lazy" />
+            </a>
+          </div>
+          <div class="project-copy">
+            <h3>Multi-Floor Delivery Robot Platform Utilizing Imitation Learning</h3>
+            <p class="project-meta">Undergraduate Thesis · Team Project · Jan. 2025 – Dec. 2025</p>
+            <p>
+              Built a ROS2-based delivery robot integrating Nav2 navigation, dual-arm kinematics,
+              YOLOv5-based elevator-button recognition, and trajectory planning.
+              Investigated localization failures in reflective elevator environments.
+            </p>
+            <p class="tags">ROS2 · Nav2 · Localization · Kinematics · Trajectory Planning</p>
+            <div class="project-links" aria-label="Delivery robot project materials">
+              <a href="assets/videos/graduation-project-demo.mp4" target="_blank" rel="noopener noreferrer">▶ Demo Video</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-item secondary-project">
+          <div class="project-image">
+            <img src="assets/images/project-arm.svg" alt="Illustration representing a two-degree-of-freedom robotic arm" loading="lazy" />
+          </div>
+          <div class="project-copy">
+            <h3>Control of a 2-DOF Robotic Arm on a Differential Drive Mobile Robot</h3>
+            <p class="project-meta">Team Member · Mar. 2025 – Jun. 2025</p>
+            <p>
+              Modeled robot dynamics in MATLAB Simulink, implemented model-based PID control,
+              and generated smooth reference trajectories using the LSPB algorithm.
+            </p>
+            <p class="tags">MATLAB · Simulink · PID · Dynamics · Lagrange Equation</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section container">
+      <div class="section-heading">
+        <h2>Experience</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-date">Jun. 2026<br />-Sep. 2026</div>
+          <div class="timeline-content">
+            <h3>GIST AI Lab</h3>
+            <p class="timeline-role">Undergraduate Researcher · Advisor: Prof. Kyoobin Lee</p>
+            <p>
+              Investigated web video-based robot behavior data generation, focusing on hand–object
+              reconstruction, contact-aware trajectory optimization, and robotic manipulation.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date">Dec. 2025<br />– Jun. 2026</div>
+          <div class="timeline-content">
+            <h3>Intelligent Control &amp; Interactive Robotics Lab</h3>
+            <p class="timeline-role">Undergraduate Research Student · Advisor: Prof. Jinseong Park · Daejeon, South Korea</p>
+            <p>
+              Studied Vision-Language-Action models and robot-control algorithms using Pinocchio, ROS2,
+              impedance control, and admittance control.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>© <span id="year">2026</span> Hyoin Lee</p>
+    <p>Built for GitHub Pages.</p>
+  </footer>
+</body>
+</html>
